@@ -1,3 +1,12 @@
+%*******************************************************************************
+% Authors:
+%       Michael Gonzalez Rivera
+%       Esteban Aguero Perez
+%       Daniela Hernández Alvarado
+%*******************************************************************************
+
+%Aproxima la solución de una ecuacion diferencial de la forma
+%      df/dx = f(x, y)
 function [x, y] = RK4(f, xi, xf, y0, h)
   x = xi:h:xf;
   y(1) = y0;

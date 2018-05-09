@@ -1,3 +1,12 @@
+%*******************************************************************************
+% Authors:
+%       Michael Gonzalez Rivera
+%       Esteban Aguero Perez
+%       Daniela Hernández Alvarado
+%*******************************************************************************
+
+%Compara de los tiempos de ejecución entre las funciones
+%   ode23, ode45, RK4
 function comparacion()
   f = @(x, y) 100 - y;
   
